@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+}
+
+h1, h3, h4, h5, h6, a, label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header > a {
+    text-decoration: none;
+    color: gold;
+    display: flex;
+}
+
+header > a > div > h2.opt {
+    margin-top: -20%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header > a > div > h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header > nav > ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header > nav > ul> li {
+    list-style: none;
+}
+
+header > nav > ul> li > a {
+    color: gold;
+    text-decoration: none;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form{
+    margin-top: 15rem;
+    margin-left: 40rem;
+}
+
+form > input.eee{
+    width: 32%;
+    height: 4vh;
+    border-style: none;
+    background-color: bisque;
+}
+
+form > input.btn{
+    width: 15%;
+    height: 5vh;
+    border-style: none;
+    background-color: bisque;
+    margin-top: 2%;
+    margin-left: 4.5rem;
+}
+
+form > label{
+    font-size: 3.1vh;
+}
+
+.radius{
+    width: 12vw;
+    height: 22vh;
+    border-radius:50% ;
+    margin-left: 43rem;
+    margin-top: 8.5rem;
+    margin-bottom: -10rem;
+   }
